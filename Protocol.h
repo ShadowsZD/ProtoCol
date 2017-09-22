@@ -13,6 +13,7 @@
 #define frame_n 8
 
 typedef struct {
+	//int start = framing_bits //??
 	int size:4;     //acho q isso aq era pra ser 5 ou eu to cego
 	int seq:6;
 	int type:5;
