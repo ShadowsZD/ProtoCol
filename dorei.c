@@ -9,7 +9,9 @@
 int main(){
 	int sock_r = RawSocketConnection("eth0");
 	unsigned char* msg = (unsigned char *) malloc(buf_max); //to send data
+	struct packet teste;
 	// sendto(sock, response, sizeof(response), 0, (struct sockaddr *)&sender, sendsize);
+	// sendto(SOCKET s, const char *data, int size, int flags, const struct sockaddr *to /optional/, int toSize,
 	return 0;
 }
 
